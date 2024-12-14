@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/* Hero Section */
+header {
+    background-color: #1d3557;
+    color: #fff;
+    padding: 60px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Product Cards */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    border-radius: 12px 12px 0 0;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.btn-dark {
+    background-color: #333;
+    border-color: #333;
+    transition: background-color 0.3s;
+}
+
+.btn-dark:hover {
+    background-color: #555;
+    border-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #1d3557;
+    color: #fff;
+}
